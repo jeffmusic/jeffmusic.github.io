@@ -1,0 +1,48 @@
+ @import url('https://fonts.googleapis.com/css?family=Monoton');
+ .bg-one, .bg-two, .bg-three, .solid1, .solid2{
+   padding: 25vmin 0;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+}
+ .bg-one {
+   background-image: url('../img/1.jpg');
+}
+ .bg-two {
+   background-image: url('../img/2.jpg');
+}
+ .bg-three {
+   background-image: url('../img/4.jpg');
+}
+.solid1 {
+  background-image: url('../img/6.jpg');
+}
+.solid2 {
+  background-image: url('../img/7.jpg');
+}
+.solid2, .solid1 {
+   padding: 25vh 0;
+   text-align: center;
+   color: white;
+   font-family: 'Monoton', cursive;
+  font-size: 8vw;
+   
+
+}
+.solid {
+   padding: 5vh 0;
+   background: steelblue;
+   text-align: center;
+   color: white;
+}
+}
+ p {
+   margin: 0;
+   line-height: 0;
+}
+ p small {
+  line-height: 0.3;
+   font-size: 0.5em;
+   color: rgba(255, 255, 255, 0.7);
+}
+ 
